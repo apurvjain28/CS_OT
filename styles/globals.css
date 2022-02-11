@@ -14,3 +14,57 @@ a {
 * {
   box-sizing: border-box;
 }
+
+:root {
+  /* colors */
+  --textColor: #632ff3;
+  --purple0: #dfe2ff;
+  --purple1: #d0d8ff;
+  --purple2: #7990ff;
+  --purple3: #8286e3;
+  --purple4: #6c7dfe;
+  --purple5: #5368ff;
+  --purple6: #3042bf;
+  --red: #ff5380;
+  --orange: #ff9578;
+  --green: #28df6f;
+  --blue: #4a4dbb;
+  --error: #b00020;
+  --offWhite: #f3f1f5;
+  --almostWhite2: #787fa1;
+  --lightGrey: #bdbdbd;
+  --grey: #aaa;
+  --darkGrey: #6e6e6e;
+  --inactiveColor: #eee;
+  --grey0: #f8f8f8;
+  --grey1: #f3f2f3;
+  --grey2: #dadada;
+  --grey3: rgba(0, 0, 0, 0.26);
+  --grey4: #3e5159;
+  --lightText: #4a5588;
+  --darkText: #334354;
+  --darkerText: #17262a;
+  --darkestText: #1f1b41;
+  --almostBlack: #213333;
+  --shadow-color: rgba(49, 58, 68, 0.2);
+  --dark-shadow-color: rgba(0, 0, 0, 0.15);
+  --darker-shadow-color: rgba(0, 0, 0, 0.2);
+  --blueBottomGradient: linear-gradient(
+    90deg,
+    var(--purple3),
+    var(--purple5) 99.68%
+  );
+  --shadow: 0 0 26px 0 var(--shadow-color);
+  --shadow-below: 0 16px 16px -16px var(--shadow-color);
+  --shadow-dark: 0 0 26px 0 var(--dark-shadow-color);
+  --shadow-darker-tight: 0 0 8px 0 var(--darker-shadow-color);
+  --shadowTight: 0 0 9px 0 var(--shadow-color);
+  --overlay-shadow: 0 0 2000px 10000px rgba(0, 0, 0, 0.3);
+  --text-shadow: 0 0 10px var(--darker-shadow-color);
+  --card-shadow: 0 3.6px 10px rgba(74, 77, 187, 0.22);
+  --navHeight: 4.5em;
+  --border: 1px solid var(--grey2);
+  --border-radius: 15px;
+  /* fonts */
+  --fontFamily: "Work Sans", sans-serif;
+}
